@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    margin: top 20px;
+    padding:40px;
+    border:1px solid black;
+    border: radius 5px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.5);
+}
+label,
+input{
+    display:block;
+    margin-bottom:10px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width:80%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:3px;
+}
+button{
+    background-color:antiquewhite;
+    color:aliceblue;
+    border: 1px solid black;
+    padding:10px 10px;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color:aliceblue;
+}
